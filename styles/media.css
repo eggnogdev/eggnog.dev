@@ -1,0 +1,48 @@
+/*
+  Show the pc version of the page if the width is > 1024px
+
+  show the mobile version of the page if the width is <= 1024px
+*/
+.mobile-page {
+  display: none;
+}
+
+@media screen and ((max-width: 768px) or (orientation: portrait)) {
+
+  body {
+    max-width: 480px;
+  }
+
+  .nav-item {
+    width: 5.5em;
+  }
+  
+  .header {
+    padding: unset;
+  }
+
+  .me-photo img {
+    width: 12em;
+  }
+
+  .big-word-group {
+    font-size: 1.75em;
+  }
+
+  
+  .pc-page {
+    display: none;
+  }
+
+  .mobile-page {
+    display: contents;
+  }
+
+  #top {
+    scroll-margin-top: 10em;
+  }
+
+  .info-tile-group {
+    margin: 5em 0;
+  }
+}

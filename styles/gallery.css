@@ -1,0 +1,64 @@
+.gallery-wrapper {
+	display: grid;
+	gap: 1em;
+	margin-top: 1em;
+}
+
+.gallery-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.street-sign {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	border-top-left-radius: 2em;
+}
+
+.lake {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.train-station {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	border-top-right-radius: 2em;
+}
+
+.bike-in-tree {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.alpacas {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	border-bottom-left-radius: 2em;
+}
+
+.canoe {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+
+.trail {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	border-bottom-right-radius: 2em;
+}

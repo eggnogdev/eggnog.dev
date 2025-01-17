@@ -1,0 +1,110 @@
+header {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.info-text {
+	font-size: 1.15em;
+	text-align: left;
+}
+
+.info-tile-group {
+	margin: 2em 0;
+}
+
+.info-tile {
+	border: 0.2em solid black;
+	border-radius: 1.5em;
+	height: 5em;
+	padding: 1em;
+	width: 28em;
+	margin: 1em 0;
+	background: transparent;
+	position: relative;
+}
+
+.info-tile.right-align {
+	display: flex;
+	justify-content: right;
+}
+
+.info-tile-title {
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+.info-tile-subtitle {
+	color: grey;
+}
+
+.info-tile-group:nth-child(even) .info-tile {
+	border-color: var(--blue);
+}
+
+.info-tile-group:nth-child(even) * .info-tile-icon {
+	color: var(--blue);
+}
+
+.info-tile-group:nth-child(odd) .info-tile {
+	border-color: var(--pink);
+}
+
+.info-tile-group:nth-child(odd) * .info-tile-icon {
+	color: var(--pink);
+}
+
+.info-tile-group:nth-child(odd) {
+	text-align: right;
+}
+
+.info-tile .background-fill-50 {
+	position: absolute;
+	top: -3px;
+	right: 0;
+	border-radius: 1.5em;
+	height: 5em;
+	width: 14em;
+	background: var(--pink-translucent);
+	z-index: -100;
+}
+
+.info-tile .background-fill-60 {
+	position: absolute;
+	top: -3px;
+	right: 0;
+	border-radius: 1.5em;
+	height: 5em;
+	width: 16.8em;
+	background: var(--pink-translucent);
+	z-index: -100;
+}
+
+.info-tile .background-fill-90 {
+	position: absolute;
+	top: -3px;
+	right: 0;
+	border-radius: 1.5em;
+	height: 5em;
+	width: 25.2em;
+	background: var(--pink-translucent);
+	z-index: -100;
+}
+
+.info-tile .background-fill-40 {
+	position: absolute;
+	top: -3px;
+	right: 0;
+	border-radius: 1.5em;
+	height: 5em;
+	width: 11.2em;
+	background: var(--pink-translucent);
+	z-index: -100;
+}
+
+.info-tile.height-responsive {
+	height: unset;
+}
+
+.info-tile svg {
+	fill: var(--pink);
+}

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <script src="https://kit.fontawesome.com/29af14cdbd.js" crossorigin="anonymous"></script>
+    <title>Daniel Egorov</title>
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav>
+      <div class="header row">
+        <a href="#top"><h1>Daniel Egorov</h1></a>
+        <div class="pc-page">
+          <div class="row">
+            <a href="#education-pc"><div class="nav-item center">Education</div></a>
+            <a href="#skills-pc"><div class="nav-item center">Skills</div></a>
+            <a href="#projects-pc"><div class="nav-item center">Projects</div></a>
+            <a href="#gallery-pc"><div class="nav-item center">Gallery</div></a>
+            <a href="#contact"><div class="nav-item center">Contact</div></a>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-page">
+        <div class="row">
+          <a href="#education-mobile"><div class="nav-item center">Education</div></a>
+          <a href="#skills-mobile"><div class="nav-item center">Skills</div></a>
+          <a href="#projects-mobile"><div class="nav-item center">Projects</div></a>
+          <a href="#gallery-mobile"><div class="nav-item center">Gallery</div></a>
+          <a href="#contact"><div class="nav-item center">Contact</div></a>
+        </div>
+      </div>
+    </nav>
+    <!-- top anchor -->
+    <div id="top" aria-hidden="true"></div>
+
+    <!-- PC VERSION OF PAGE -->
+    <article class="pc-page">
+      <!-- me header -->
+      <section class="me-header row max-width">
+        <div class="width-spacer-10"></div>
+
+        <div class="me-photo">
+          <img src="assets/me.jpg" alt="me">
+        </div>
+
+        <div class="width-spacer-20"></div>
+        <div class="width-spacer-20"></div>
+        <div class="big-word-group column">
+          <em class="big-word">Student</em>
+          <em class="big-word">Developer</em>
+          <em class="big-word">Photographer</em>
+        </div>
+        
+        <div class="width-spacer-10"></div>
+      </section>
+
+      <!-- education section -->
+      <section id="education-pc" class="info-tile-group">
+        <header>Education</header>
+        <div class="row space-between">
+          <div>
+            <div class="info-tile row space-between">
+              <div>
+                <div class="info-tile-title">Bachelor's of Engineering, ICT</div>
+                <div class="info-tile-subtitle">2023 - Present</div>
+              </div>
+              <i class="info-tile-icon fa-regular fa-circle fa-3x"></i>
+            </div>
+
+            <div class="info-tile row space-between">
+              <div>
+                <div class="info-tile-title">AP Computer Science A</div>
+                <div class="info-tile-subtitle">2022</div>
+              </div>
+              <i class="info-tile-icon fa-regular fa-circle-check fa-3x"></i>
+            </div>
+
+            <div class="info-tile row space-between">
+              <div>
+                <div class="info-tile-title">AP Computer Science Principles</div>
+                <div class="info-tile-subtitle">2021</div>
+              </div>
+              <i class="info-tile-icon fa-regular fa-circle-check fa-3x"></i>
+            </div>
+          </div>
+          <div class="width-spacer-20"></div>
+          <p class="info-text">Over the past few years, I have grown a large interest in programming. I am constantly wanting to improve my skills in the field so I have taken a few classes. Now I am working to become an ICT engineer with a focus on software development.</p>
+        </div>
+      </section>
+
+      <!-- skills section -->
+      <section id="skills-pc" class="info-tile-group">
+        <header>Skills</header>
+        <div class="row space-between">
+          <p class="info-text">My programming journey started out with Python, coding random discord bots in a server with friends. Then I began to take it more seriously and took courses where I learned the basics of web development, as well as Java. Now I am working primarily with Flutter coding cross platform apps.</p>
+          <div class="width-spacer-20"></div>
+          <div>
+            <div class="info-tile right-align">
+              <div class="info-tile-title">Python</div>
+              <div class="background-fill-50"></div>
+            </div>
+            <div class="info-tile right-align">
+              <div class="info-tile-title">Web</div>
+              <div class="background-fill-60"></div>
+            </div>
+            <div class="info-tile right-align">
+              <div class="info-tile-title">Flutter</div>
+              <div class="background-fill-90"></div>
+            </div>
+            <div class="info-tile right-align">
+              <div class="info-tile-title">Java</div>
+              <div class="background-fill-40"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- projects section -->
+      <section id="projects-pc" class="info-tile-group row space-between">
+        <div> <!-- this div has to be here or the width wont set properly -->
+          <a href="https://github.com/daniel-egorov" target="_blank" class="info-tile height-responsive center column">
+            <img src="assets/github-mark.png" height="200" alt="github mascot">
+            <img src="assets/github-logo.png" height="60" alt="github logo text">
+          </a>
+        </div>
+        <div class="width-spacer-20"></div>
+        <p class="info-text">You can check out <a href="https://github.com/daniel-egorov" target="_blank">my GitHub page</a> and see all the projects I have on display. There isn't much to it now but it will continue growing!</p>
+      </section>
+
+      <!-- gallery section -->
+      <section id="gallery-pc" class="info-tile-group">
+        <div class="row space-between">
+          <p class="info-text">I also enjoy photography as a hobby. I have taken a couple courses on that as well. Take a peek at my gallery with some photos from my trip to Salo, Finland!</p>
+        <div class="width-spacer-20"></div>
+        <div> <!-- this div has to be here or the width wont set properly -->
+          <div class="info-tile height-responsive center column">
+            <svg xmlns="http://www.w3.org/2000/svg" height="200" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M448 80c8.8 0 16 7.2 16 16V415.8l-5-6.5-136-176c-4.5-5.9-11.6-9.3-19-9.3s-14.4 3.4-19 9.3L202 340.7l-30.5-42.7C167 291.7 159.8 288 152 288s-15 3.7-19.5 10.1l-80 112L48 416.3l0-.3V96c0-8.8 7.2-16 16-16H448zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm80 192a48 48 0 1 0 0-96 48 48 0 1 0 0 96z"/></svg>
+          </div>
+        </div>
+        </div>
+        <div class="gallery-wrapper">
+          <img src="assets/img1.jpg" class="gallery-image street-sign" alt="street sign with bike">
+          <img src="assets/img2.jpg" class="gallery-image lake" alt="lake view">
+          <img src="assets/img3.jpg" class="gallery-image train-station" alt="train station from bridge">
+          <img src="assets/img4.jpg" class="gallery-image bike-in-tree" alt="bike in a tree">
+          <img src="assets/img5.jpg" class="gallery-image alpacas" alt="alpaca farm">
+          <img src="assets/img6.jpg" class="gallery-image canoe" alt="canoe by the lake">
+          <img src="assets/img7.jpg" class="gallery-image trail" alt="nature trail">
+        </div>
+      </section>
+
+    </article>
+
+    <!-- MOBILE VERSION OF PAGE -->
+    <article class="mobile-page">
+      <!-- me header -->
+      <section class="me-header row max-width">
+        <div class="me-photo">
+          <img src="assets/me.jpg" alt="me">
+        </div>
+        <div class="width-spacer-20"></div>
+        <div class="width-spacer-20"></div>
+        <div class="big-word-group column">
+          <em class="big-word">Student</em>
+          <em class="big-word">Developer</em>
+          <em class="big-word">Photographer</em>
+        </div>
+        
+        <div class="width-spacer-10"></div>
+      </section>
+
+      <!-- education section -->
+      <section id="education-mobile" class="info-tile-group">
+        <header>Education</header>
+        <div>
+          <div class="info-tile row space-between">
+            <div>
+              <div class="info-tile-title">Bachelor's of Engineering, ICT</div>
+              <div class="info-tile-subtitle">2023 - Present</div>
+            </div>
+            <i class="info-tile-icon fa-regular fa-circle fa-3x"></i>
+          </div>
+
+          <div class="info-tile row space-between">
+            <div>
+              <div class="info-tile-title">AP Computer Science A</div>
+              <div class="info-tile-subtitle">2022</div>
+            </div>
+            <i class="info-tile-icon fa-regular fa-circle-check fa-3x"></i>
+          </div>
+
+          <div class="info-tile row space-between">
+            <div>
+              <div class="info-tile-title">AP Computer Science Principles</div>
+              <div class="info-tile-subtitle">2021</div>
+            </div>
+            <i class="info-tile-icon fa-regular fa-circle-check fa-3x"></i>
+          </div>
+        </div>
+        <p class="info-text">Over the past few years, I have grown a large interest in programming. I am constantly wanting to improve my skills in the field so I have taken a few classes. Now I am working to become an ICT engineer with a focus on software development.</p>
+      </section>
+
+      <!-- skills section -->
+      <section id="skills-mobile" class="info-tile-group">
+        <header>Skills</header>
+        <div class="width-spacer-20"></div>
+        <div>
+          <div class="info-tile right-align">
+            <div class="info-tile-title">Python</div>
+            <div class="background-fill-50"></div>
+          </div>
+          <div class="info-tile right-align">
+            <div class="info-tile-title">Web</div>
+            <div class="background-fill-60"></div>
+          </div>
+          <div class="info-tile right-align">
+            <div class="info-tile-title">Flutter</div>
+            <div class="background-fill-90"></div>
+          </div>
+          <div class="info-tile right-align">
+            <div class="info-tile-title">Java</div>
+            <div class="background-fill-40"></div>
+          </div>
+        </div>
+        <p class="info-text">My programming journey started out with Python, coding random discord bots in a server with friends. Then I began to take it more seriously and took courses where I learned the basics of web development, as well as Java. Now I am working primarily with Flutter coding cross platform apps.</p>
+      </section>
+
+      <!-- projects section -->
+      <section id="projects-mobile" class="info-tile-group space-between">
+        <div> <!-- this div has to be here or the width wont set properly -->
+          <a href="https://github.com/daniel-egorov" target="_blank" class="info-tile height-responsive center column">
+            <img src="assets/github-mark.png" height="200" alt="github mascot">
+            <img src="assets/github-logo.png" height="60" alt="github logo text">
+          </a>
+        </div>
+        <div class="width-spacer-20"></div>
+        <p class="info-text">You can check out <a href="https://github.com/daniel-egorov" target="_blank">my GitHub page</a> and see all the projects I have on display. There isn't much to it now but it will continue growing!</p>
+      </section>
+
+      <!-- gallery section -->
+      <section id="gallery-mobile" class="info-tile-group">
+        <div> <!-- this div has to be here or the width wont set properly -->
+          <div class="info-tile height-responsive center column">
+            <svg xmlns="http://www.w3.org/2000/svg" height="200" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M448 80c8.8 0 16 7.2 16 16V415.8l-5-6.5-136-176c-4.5-5.9-11.6-9.3-19-9.3s-14.4 3.4-19 9.3L202 340.7l-30.5-42.7C167 291.7 159.8 288 152 288s-15 3.7-19.5 10.1l-80 112L48 416.3l0-.3V96c0-8.8 7.2-16 16-16H448zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm80 192a48 48 0 1 0 0-96 48 48 0 1 0 0 96z"/></svg>
+          </div>
+        </div>
+        <p class="info-text">I also enjoy photography as a hobby. I have taken a couple courses on that as well. Take a peek at my gallery with some photos from my trip to Salo, Finland!</p>
+        <div class="gallery-wrapper">
+          <img src="assets/PXL_20231016_092714552.jpg" class="gallery-image street-sign" alt="street sign with bike">
+          <img src="assets/PXL_20231016_093333543~2.jpg" class="gallery-image lake" alt="lake view">
+          <img src="assets/PXL_20231015_145840314.jpg" class="gallery-image train-station" alt="train station from bridge">
+          <img src="assets/PXL_20231016_084942919.jpg" class="gallery-image bike-in-tree" alt="bike in a tree">
+          <img src="assets/PXL_20231016_091031414.jpg" class="gallery-image alpacas" alt="alpaca farm">
+          <img src="assets/PXL_20231016_093809195.jpg" class="gallery-image canoe" alt="canoe by the lake">
+          <img src="assets/PXL_20231016_090104255.jpg" class="gallery-image trail" alt="nature trail">
+        </div>
+      </section>
+
+    </article>
+
+    <!-- contact section / footer -->
+    <footer id="contact" class="center">
+      <div></div> <!-- empty div to force proper color on border -->
+      <div class="info-tile-group">
+        <div class="info-tile center column">
+          <p>Want to get in contact?</p>
+          <a href="mailto:daniel@eggnog.dev">daniel@eggnog.dev</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+.header {
+	height: 3.75em;
+	padding: 0 0 0 1em;
+	justify-content: space-between;
+	margin: 0.5em;
+	border-radius: 2em;
+}
+
+a h1 {
+	color: black;
+}
+
+nav {
+	position: sticky;
+	background-color: white;
+	top: 0;
+	z-index: 1000;
+}
+
+.nav-item {
+	height: 3.75em;
+	width: 6em;
+}
+
+a .nav-item {
+	text-decoration: unset;
+	color: black;
+}
+
+.nav-item:hover {
+	border-bottom-style: solid;
+	border-bottom-width: 0.2em;
+	border-bottom-color: var(--pink);
+	position: relative;
+	top: 0.1em;
+}
+
+/*
+	Header graphic styles
+*/
+.me-header {
+	justify-content: space-between;
+}
+
+.me-photo img {
+	border-radius: 50%;
+	width: 16em;
+	border: 0.2em solid var(--pink);
+}
+
+.big-word-group {
+	text-align: right;
+	font-size: 3.25em;
+	display: flex;
+	flex-direction: column;
+}
+
+em {
+	font-style: normal;
+}
+
+em.big-word:nth-child(odd) {
+	color: black;
+}
+
+em.big-word:nth-child(even) {
+	color: var(--pink);
+	font-weight: bold;
+}
