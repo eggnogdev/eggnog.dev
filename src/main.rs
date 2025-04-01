@@ -5,5 +5,5 @@ use rocket::fs::FileServer;
 #[launch]
 fn rocket() -> _ {
   rocket::build()
-    .mount("/", FileServer::from("/www/html"))
+    .mount("/", FileServer::from("/var/www/html"))
 }
